@@ -1,0 +1,6 @@
+model,RMSE,Precision@10,coverage,intra_list_diversity,novelty_bits
+Global mean,0.988,0.011,0.108,0.977,4.7
+Baseline (biases),0.931,0.009,0.063,0.893,5.19
+User-based CF,0.933,0.008,0.171,0.907,5.16
+Item-based CF,0.931,0.01,0.135,0.897,5.2
+SVD (MF),0.967,0.005,0.279,0.905,5.64

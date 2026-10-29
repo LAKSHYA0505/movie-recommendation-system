@@ -1,0 +1,8 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description
+user_id,integer,42,317,501,No,"Anonymous numeric user identifier (1-504). No names, age, gender or location are stored, so the model learns only from rating behaviour."
+movie_title,string,RRR,KGF: Chapter 2,The Shawshank Redemption,No,"Film title. Indian regional films plus English titles taken from MovieLens 100K (leading articles moved to the front, year removed)."
+genre,string,Action,Thriller,Drama,No,"Primary genre of the film (e.g. Action, Comedy, Drama, Romance, Sci-Fi, Thriller, Horror, Animation, Crime)."
+language,string,Telugu,Kannada,English,No,"Original language of the film (Hindi, Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, Punjabi, English)."
+release_year,integer,2022,2018,1994,No,Year the film was released (1922-2024).
+rating,float,4.5,3.0,5.0,No,"Explicit rating given by the user, on a 1.0-5.0 scale (0.5 steps for Indian titles, whole numbers for MovieLens titles). Higher = liked more."
+timestamp,datetime (YYYY-MM-DD HH:MM:SS),2024-05-03 14:22:10,2025-06-11 09:05:47,2025-12-01 23:37:23,No,"When the rating was submitted. Rows are sorted in strictly increasing time order (2024-01-01 to 2025-12-01), which allows a time-based train/test split."
