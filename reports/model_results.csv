@@ -1,0 +1,5 @@
+model,RMSE,MAE,Precision@10,Recall@10,catalogue_coverage,intra_list_diversity,avg_languages_per_list,novelty_bits
+Baseline (biases),0.937,0.762,0.824,0.207,0.063,0.929,2.808,5.021
+User-based CF,0.958,0.775,0.777,0.23,0.649,0.951,3.582,4.703
+Item-based CF,0.952,0.772,0.755,0.241,0.613,0.951,3.646,4.639
+SVD,0.958,0.773,0.772,0.355,0.108,0.895,1.042,5.536
